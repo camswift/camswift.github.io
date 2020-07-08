@@ -57,6 +57,7 @@ li{
     justify-content: center;
     align-items: center;
     text-align: left;
+    flex-direction: column;
 }
 .aboutme-div{
     width:50vw;
@@ -70,6 +71,11 @@ li{
         font-family: 'Monofett', 'Montserrat';
         letter-spacing: 2px;
         text-align:start;
+}
+.space{
+    width:100px;
+    background-color: red;
+    height:10px;
 }
 /* -- footer section -- */
 .footer-div{
