@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+*{
+   font-family: 'Montserrat'; 
+}
+.home-button{
+    text-decoration: none;
+    color: black;
+    display:inline-block;
+}
+.link{
+    text-decoration: none;
+    color: #ff9f0e;
+}
+.link:hover{
+    color:#c07d18;
+}
+.header-p{
+    float: left;
+}
+.home-button:hover{
+    color: rgb(110, 110, 110); 
+}
+.nav-item{
+    text-decoration: none;
+    color: #ff9f0e;
+    padding-right:1vw;
+}
+.nav-item:hover{
+    color:#c07d18;
+}
+.copyright{
+    opacity: 50%;
+}
+img{
+    height: 10vh;
+    width: 10vh;
+    border: 1px solid black;
+    border-radius: 100%;
+    display:inline-block;
+}
+.tech-li{
+    padding-bottom: 1vh;
+}
+
+/* job hover stuff */
+.job {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 40vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .job:hover .dropdown-content {
+    display: block;
+  }
+  /* end job hover stuff */
