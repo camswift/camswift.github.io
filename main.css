@@ -32,15 +32,22 @@
 .copyright{
     opacity: 50%;
 }
-img{
+#fox{
     height: 10vh;
     width: 10vh;
     border: 1px solid black;
     border-radius: 100%;
     display:inline-block;
 }
+#me{
+    height:20vh;
+    width:20vh;
+    border: 1px solid black;
+    border-radius: 50%;
+}
 .tech-li{
-    padding-bottom: 1vh;
+    padding-bottom: 2vh;
+    list-style-type: none;
 }
 
 /* job hover stuff */
@@ -68,3 +75,16 @@ img{
       color:#c07d18;
   }
   /* end job hover stuff */
+  /* flex stuff */
+.outer-div{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  /* end flex stuff */
+  /* design */
+  body{
+      background: rgb(235, 235, 235);
+  }
