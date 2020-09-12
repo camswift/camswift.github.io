@@ -61,4 +61,10 @@ img{
   .job:hover .dropdown-content {
     display: block;
   }
+  .job-name{
+      color:#ff9f0e;
+  }
+  .job-name:hover{
+      color:#c07d18;
+  }
   /* end job hover stuff */
