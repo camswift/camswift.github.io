@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 *{margin:0;}
 html{
-    font-family: 'Montserrat', Permanent Marker;
+    font-family: 'Montserrat', 'Permanent Marker';
     background-color: #cfc0bd;
     --text-color: #251605;
     --background: #cfc0bd;
@@ -57,7 +57,7 @@ li{
     justify-content: center;
     align-items: center;
     text-align: left;
-    flex-direction: column;
+
 }
 .aboutme-div{
     width:50vw;
